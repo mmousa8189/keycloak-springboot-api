@@ -25,3 +25,15 @@ git clone git@github.com/mmousa8189/keycloak-springboot-api.git
 ```bash
  ./mvnw clean spring-boot:run
 ```
+
+### docker (build)
+
+```bash
+docker build -t keycloak-springboot-api:latest .
+```
+
+### docker (run)
+
+```bash
+docker run -p 4001:4001 keycloak-springboot-api
+```
